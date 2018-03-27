@@ -1,0 +1,114 @@
+   body {
+       background: url("http://www.powerpointhintergrund.com/uploads/light-wooden-background-0.jpeg");
+       position: fixed;
+       left: 0;
+       top: 0;
+       bottom: 0;
+       right: 0;
+   }
+
+   #main-card {
+       background-color: #FFFFA5;
+       box-shadow: 3px 3px 3px grey;
+       width: 40%;
+       margin: 0 auto;
+       margin-top: 10px;
+       padding: 10px;
+       height: 305px;
+   }
+
+   #head-line {
+       text-decoration: underline;
+       text-shadow: 1px 1px grey;
+       font-family: 'Molle', cursive;
+       text-align: center;
+       margin-top: 0;
+       margin-bottom: 0;
+   }
+
+   #uper-note-form {
+       position: relative;
+       top: 20px;
+   }
+
+   label {
+       font-family: 'Molle', cursive;
+   }
+
+   #label-time {
+       left: 100px;
+   }
+
+    ::-webkit-input-placeholder {
+       font-family: 'Righteous', cursive;
+       color: black;
+   }
+
+   .main-note-input {
+       position: relative;
+       border: 0;
+       background: none;
+       margin: 15px;
+       outline: none;
+       font-family: 'Righteous', cursive;
+   }
+
+   #text-input {
+       position: absolute;
+       height: 100px;
+       width: 400px;
+       overflow: auto;
+       overflow-wrap: break-word;
+       resize: none;
+       font-family: 'Righteous', cursive;
+       font-size: 16px;
+   }
+
+   .uper-btns {
+       top: 215px;
+       box-shadow: 2px 2px 2px grey;
+       position: absolute;
+   }
+
+   #btnSave {
+       position: absolute;
+       left: 10px;
+       box-shadow: 2px 2px 2px grey;
+       font-family: 'Molle', cursive;
+   }
+   /*.input-error {
+            color: #D8000C;
+            font-family: 'Josefin Slab', serif;
+            font-size: 20px;
+            visibility: hidden;
+        }*/
+   /*
+        #error-box {
+            bottom: 40px;
+            position: fixed;
+            left: 40px;
+            background-color: #FFB6C1;
+            margin: 0 auto;
+            left: -1px;
+            position: absolute;
+        }*/
+
+   .notes {
+       background-color: #FFFFA5;
+       height: 250px;
+       width: 250px;
+       bottom: 0;
+       left: 0;
+       float: left;
+       margin: 5px;
+       overflow: auto;
+       overflow-wrap: break-word;
+       padding: 5px;
+       position: relative;
+   }
+
+   #noteList {
+       list-style-type: none;
+       font-family: 'Righteous', cursive;
+       font-size: 16px;
+   }
